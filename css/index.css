@@ -6,3 +6,38 @@ body {
   color: white;
 }
 
+/* BEGIN clock css */
+.dateString{
+	color:#585453; 
+}
+
+.hourString {
+	width: 50px;
+	height: 50px;
+	color: white;
+	background-color:#585453 ;
+	font-size: 250%;
+	display:inline-block;
+	text-align: center;
+	border-radius:10px;
+}
+
+.secondString {
+	width: 50px;
+	height: 50px;
+	color: #585453; /*clock gray*/
+	background-color:white ;
+	font-size: 250%;
+	display:inline-block;
+	text-align: center;
+	border-radius:10px;
+}
+
+.dotString {
+	width: 20px;
+	height:50px;
+	font-size: 250%;
+	display:inline-block;
+	text-align: center;
+}
+/* END clock css */
