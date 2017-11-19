@@ -13,12 +13,18 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+		
+		<!-- JQuery from Google CDN -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
 		<link rel="stylesheet" href="css/index.css">
 
+
+		<script type="text/javascript" src="javascript/index.js" ></script>
 		<script type="text/javascript" src="javascript/clock.js" ></script>
 
 	</head>
@@ -30,7 +36,18 @@
   					<br /><br /><br />
   					<ul class="nav nav-pills nav-justified">
   						<li role="presentation" class="active"><a href="index.html">HomePage</a></li>
-  						<li role="presentation"><a href="pdf/YH_resume.pdf">About Me</a></li>
+  						<!-- BEGIN of dropdown menu-->
+  						<li role="presentation" class="dropdown">
+  							<a href="#" class="dropdown-toggle" id="drop4" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> About Me <span class="caret"></span> </a>
+  							<ul class="dropdown-menu" id="menu1" aria-labelledby="drop4"> 
+  								<li><a href="#">Introduction</a></li> 
+  								<li><a href="#">Colorful Life</a></li> 
+  								<li><a href="#">Favorites</a></li> 
+  								<li role="separator" class="divider"></li> 
+  								<li><a href="pdf/YH_resume.pdf">Resume</a></li>
+  							</ul>
+  						</li>
+  						<!-- END of dropdown menu-->
   						<li role="presentation"><a href="#">Others</a></li>
 					</ul>
   				</div>

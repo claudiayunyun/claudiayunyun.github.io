@@ -33,4 +33,3 @@ function getTime() {
 	document.getElementById("minuteNJ").innerHTML = minuteArray[timeNJ.getMinutes()];
 	document.getElementById("secondNJ").innerHTML = minuteArray[timeNJ.getSeconds()];
 }
-
