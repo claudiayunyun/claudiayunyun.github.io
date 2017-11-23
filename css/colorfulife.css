@@ -1,17 +1,21 @@
 .music-block{
 	background-color: #db3236;
+	padding:2%;
 }
 
 .movie-block{
 	background-color: #f4c20d;
+	padding:2%;
 
 }
 
 .language-block{
 	background-color: #3cba54;
+	padding:2%;
 
 }
 
 .book-block{
 	background-color: #4885ed;
+	padding:2%;
 }
